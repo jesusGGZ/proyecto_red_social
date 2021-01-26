@@ -7,8 +7,8 @@ module.exports = {
     },
     mysql: {
         host: process.env.MYSQL_HOST || 'localhost',
-        user: process.env.MYSQL_USER || 'vyU7DCqzKX',
-        password: process.env.MYSQL_PASS || 'hQ8gtxIQ9o',
-        database: process.env.MYSQL_DB || 'vyU7DCqzKX',
+        user: process.env.MYSQL_USER || 'root',
+        password: process.env.MYSQL_PASS || '',
+        database: process.env.MYSQL_DB || 'redSocial',
     },
 }
